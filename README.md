@@ -1,4 +1,6 @@
-# Italian License Quiz Shortcuts
+# <img src="icon.png" width="36" style="vertical-align: middle;"> Italian License Quiz Shortcuts
+
+
 
 A Chrome extension that adds keyboard shortcuts to [quizpatenteonline.it](https://www.quizpatenteonline.it/) to make studying for the Italian driver's license more efficient.
 
