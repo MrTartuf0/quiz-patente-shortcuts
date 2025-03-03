@@ -1,4 +1,42 @@
 // content.js
+
+// Function to remove specified elements
+function removeElements() {
+  // Remove breadcrumb
+  const breadcrumb = document.querySelector('span.breadcrumb');
+  if (breadcrumb) {
+    breadcrumb.remove();
+    console.log('Breadcrumb removed');
+  }
+  
+  // Remove the intro paragraph
+  document.querySelectorAll('p').forEach(p => {
+    if (p.textContent.includes('quiz patente B') && p.textContent.includes('2025-2026')) {
+      p.remove();
+      console.log('Intro paragraph removed');
+    }
+  });
+  
+  // Remove the aside with id="aside"
+  const aside = document.getElementById('aside');
+  if (aside) {
+    aside.remove();
+    console.log('Aside removed');
+  }
+}
+
+// Execute immediately for already loaded pages
+removeElements();
+
+// Also set up a MutationObserver to handle dynamic content loading
+const observer = new MutationObserver(function(mutations) {
+  removeElements();
+});
+
+// Start observing the document with the configured parameters
+observer.observe(document.body, { childList: true, subtree: true });
+
+// Keyboard shortcuts
 document.addEventListener('keydown', function(event) {
   // Check if we're in a quiz page (look for elements that are only on quiz pages)
   const quizElements = document.querySelectorAll('.vedidomanda');
