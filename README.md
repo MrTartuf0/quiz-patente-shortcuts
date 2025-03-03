@@ -1,4 +1,4 @@
-# <img src="icon.png" width="36" style="vertical-align: middle;"> Italian License Quiz Shortcuts
+# <img src="icon.png" width="36" style="vertical-align: middle;"> Italian License Quiz Shortcuts 🚗💨 📝
 
 
 
