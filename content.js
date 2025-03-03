@@ -58,8 +58,13 @@ document.addEventListener('keydown', function(event) {
       }
       break;
       
-      case 'Enter':
-        console.log("correggi!");
+    case 'Enter':
+      // Find the "Correggi" button
+      const correggiButton = document.querySelector('input[value="Correggi"].correggi');
+      if (correggiButton) {
+        correggiButton.click();
+        event.preventDefault(); // Prevent default browser behavior
+      }
       break;
   }
 });
