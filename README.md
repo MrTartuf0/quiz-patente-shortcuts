@@ -27,11 +27,22 @@ A Chrome extension that adds keyboard shortcuts to [quizpatenteonline.it](https:
 *(Coming soon)*
 
 ### Manual Installation
-1. Download or clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" (toggle in the top-right corner)
-4. Click "Load unpacked" and select the folder containing the extension files
-5. The extension is now installed and active when you visit quizpatenteonline.it
+
+#### Option 1: Install from GitHub Releases
+1. Download the latest `.zip` file from the [GitHub Releases page](https://github.com/MrTartuf0/quiz-patente-shortcuts/releases/tag/extension).
+2. Extract the `.zip` file to a folder on your computer.
+3. Open Chrome and navigate to `chrome://extensions/`.
+4. Enable "Developer mode" (toggle in the top-right corner).
+5. Click "Load unpacked" and select the extracted folder.
+6. The extension is now installed and active when you visit quizpatenteonline.it.
+
+#### Option 2: Install from Source Code
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" (toggle in the top-right corner).
+4. Click "Load unpacked" and select the folder containing the extension files.
+5. The extension is now installed and active when you visit quizpatenteonline.it.
+
 
 ## Why Use This Extension?
 
