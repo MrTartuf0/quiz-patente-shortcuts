@@ -21,6 +21,9 @@ A Chrome extension that adds keyboard shortcuts to [quizpatenteonline.it](https:
 | `f` or `k`              | Select "Falso" (False) answer |
 | `Enter`                 | Submit answers (click "Correggi" button) |
 
+[![banner](ext.png)
+
+
 ## Installation
 
 ### From Chrome Web Store
