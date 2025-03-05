@@ -24,7 +24,8 @@ A Chrome extension that adds keyboard shortcuts to [quizpatenteonline.it](https:
 ## Installation
 
 ### From Chrome Web Store
-*(Coming soon)*
+[![image](https://github.com/user-attachments/assets/902cd0d4-79b5-4a0f-b1b6-b814b075ea83)
+](https://chromewebstore.google.com/detail/italian-license-quiz-shor/ionggjgjafflbhmdohncefdjieilfpff)
 
 ### Manual Installation
 
